@@ -1,5 +1,6 @@
 .venv/
-__pycache__/
-data/
-checkpoints/
-results/log.txt
+.ipynb_checkpoints
+.data
+*.pt
+__pycache__
+wandb
