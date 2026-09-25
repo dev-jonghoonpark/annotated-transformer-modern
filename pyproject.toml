@@ -1,0 +1,23 @@
+[project]
+name = "annotated-transformer-modern"
+version = "0.1.0"
+description = "The Annotated Transformer(2018/2022)를 2026년 PyTorch와 현대 LLM 구조로 다시 쓰고 원본과 나란히 학습해 비교"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    # enable_gqa 인자(scaled_dot_product_attention)가 2.5부터 있다.
+    "torch>=2.5",
+    # torchtext(개발 중단)와 torchdata DataPipe(삭제) 대신 Multi30k를 HF Hub에서 받는다.
+    "datasets",
+    # spacy 단어 사전 대신 공유 BPE — 논문(37K 공유 BPE)도 이쪽이었다.
+    "tokenizers",
+    "sacrebleu",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

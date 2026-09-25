@@ -1,0 +1,400 @@
+{
+ "name": "modern-deconly-s1",
+ "model": "modern-deconly",
+ "recipe": "modern",
+ "params": 43565312,
+ "steps": 6000,
+ "epochs": 38,
+ "max_tokens": 6000,
+ "warmup": 300,
+ "dropout": 0.1,
+ "post_ln": false,
+ "dec_layers": 14,
+ "train_sec": 788.0384826660156,
+ "peak_mem_gib": 4.271004676818848,
+ "decode_sec": 7.577505588531494,
+ "gen_tokens": 14457,
+ "bleu": 36.75934317133191,
+ "bleu_str": "BLEU = 36.76 69.5/45.6/30.8/21.3 (BP = 0.968 ratio = 0.969 hyp_len = 12552 ref_len = 12955)",
+ "final_valid_nll": 2.4312711640376192,
+ "best_step": 1000,
+ "best_valid_nll": 1.9439185814341162,
+ "best_bleu": 33.42334991467349,
+ "best_bleu_str": "BLEU = 33.42 65.0/41.0/26.7/17.5 (BP = 1.000 ratio = 1.024 hyp_len = 13265 ref_len = 12955)",
+ "history": [
+  {
+   "step": 100,
+   "train_loss": 6.125506072044373,
+   "lr": 0.0003366666666666667
+  },
+  {
+   "step": 200,
+   "train_loss": 4.517377552986145,
+   "lr": 0.00067
+  },
+  {
+   "step": 300,
+   "train_loss": 4.075985140800476,
+   "lr": 0.001
+  },
+  {
+   "step": 400,
+   "train_loss": 3.6609862279891967,
+   "lr": 0.0009993166823949924
+  },
+  {
+   "step": 500,
+   "train_loss": 3.4696356081962585,
+   "lr": 0.0009972688047930772,
+   "valid_nll": 2.405052878993332
+  },
+  {
+   "step": 600,
+   "train_loss": 3.1348081707954405,
+   "lr": 0.0009938625865312252
+  },
+  {
+   "step": 700,
+   "train_loss": 2.8614846992492677,
+   "lr": 0.000989108372182346
+  },
+  {
+   "step": 800,
+   "train_loss": 2.818751428127289,
+   "lr": 0.0009830206001391626
+  },
+  {
+   "step": 900,
+   "train_loss": 2.513887161016464,
+   "lr": 0.0009756177587652855
+  },
+  {
+   "step": 1000,
+   "train_loss": 2.4267205452919005,
+   "lr": 0.0009669223302466608,
+   "valid_nll": 1.9439185814341162
+  },
+  {
+   "step": 1100,
+   "train_loss": 2.337495185136795,
+   "lr": 0.0009569607223139099
+  },
+  {
+   "step": 1200,
+   "train_loss": 2.1321954798698424,
+   "lr": 0.0009457631880429201
+  },
+  {
+   "step": 1300,
+   "train_loss": 2.0607653880119323,
+   "lr": 0.0009333637339772471
+  },
+  {
+   "step": 1400,
+   "train_loss": 1.9455513072013855,
+   "lr": 0.0009198000168513603
+  },
+  {
+   "step": 1500,
+   "train_loss": 1.8051973712444305,
+   "lr": 0.0009051132292283771,
+   "valid_nll": 2.0086470566281847
+  },
+  {
+   "step": 1600,
+   "train_loss": 1.7885804879665375,
+   "lr": 0.0008893479743996034
+  },
+  {
+   "step": 1700,
+   "train_loss": 1.6637433850765229,
+   "lr": 0.0008725521309258031
+  },
+  {
+   "step": 1800,
+   "train_loss": 1.6515542232990266,
+   "lr": 0.0008547767072315835
+  },
+  {
+   "step": 1900,
+   "train_loss": 1.6266044175624848,
+   "lr": 0.0008360756866944857
+  },
+  {
+   "step": 2000,
+   "train_loss": 1.5545674133300782,
+   "lr": 0.0008165058636992411,
+   "valid_nll": 2.0958816897641324
+  },
+  {
+   "step": 2100,
+   "train_loss": 1.5575492012500762,
+   "lr": 0.0007961266711550922
+  },
+  {
+   "step": 2200,
+   "train_loss": 1.5228782546520234,
+   "lr": 0.0007750000000000001
+  },
+  {
+   "step": 2300,
+   "train_loss": 1.4963854992389678,
+   "lr": 0.0007531900112399002
+  },
+  {
+   "step": 2400,
+   "train_loss": 1.4891719722747803,
+   "lr": 0.0007307629410938364
+  },
+  {
+   "step": 2500,
+   "train_loss": 1.4512470722198487,
+   "lr": 0.0007077868998367395,
+   "valid_nll": 2.1927142683867435
+  },
+  {
+   "step": 2600,
+   "train_loss": 1.449846044778824,
+   "lr": 0.0006843316649507626
+  },
+  {
+   "step": 2700,
+   "train_loss": 1.4406459414958954,
+   "lr": 0.0006604684692133597
+  },
+  {
+   "step": 2800,
+   "train_loss": 1.4041709530353546,
+   "lr": 0.0006362697843656823
+  },
+  {
+   "step": 2900,
+   "train_loss": 1.4055097925662994,
+   "lr": 0.0006118091010182837
+  },
+  {
+   "step": 3000,
+   "train_loss": 1.3925061440467834,
+   "lr": 0.0005871607054625496,
+   "valid_nll": 2.214737455525975
+  },
+  {
+   "step": 3100,
+   "train_loss": 1.376009076833725,
+   "lr": 0.000562399454065673
+  },
+  {
+   "step": 3200,
+   "train_loss": 1.3712759912014008,
+   "lr": 0.0005376005459343272
+  },
+  {
+   "step": 3300,
+   "train_loss": 1.3563498365879059,
+   "lr": 0.0005128392945374505
+  },
+  {
+   "step": 3400,
+   "train_loss": 1.3497527503967286,
+   "lr": 0.0004881908989817163
+  },
+  {
+   "step": 3500,
+   "train_loss": 1.3456744134426117,
+   "lr": 0.00046373021563431784,
+   "valid_nll": 2.239502575139331
+  },
+  {
+   "step": 3600,
+   "train_loss": 1.3320539677143097,
+   "lr": 0.00043953153078664045
+  },
+  {
+   "step": 3700,
+   "train_loss": 1.3270280385017394,
+   "lr": 0.0004156683350492376
+  },
+  {
+   "step": 3800,
+   "train_loss": 1.3204870212078095,
+   "lr": 0.00039221310016326064
+  },
+  {
+   "step": 3900,
+   "train_loss": 1.3121178090572356,
+   "lr": 0.00036923705890616387
+  },
+  {
+   "step": 4000,
+   "train_loss": 1.3093102550506592,
+   "lr": 0.0003468099887600999,
+   "valid_nll": 2.3123408420830014
+  },
+  {
+   "step": 4100,
+   "train_loss": 1.3034251832962036,
+   "lr": 0.00032500000000000015
+  },
+  {
+   "step": 4200,
+   "train_loss": 1.2963922894001008,
+   "lr": 0.00030387332884490803
+  },
+  {
+   "step": 4300,
+   "train_loss": 1.2937729012966157,
+   "lr": 0.00028349413630075906
+  },
+  {
+   "step": 4400,
+   "train_loss": 1.2865675795078277,
+   "lr": 0.00026392431330551447
+  },
+  {
+   "step": 4500,
+   "train_loss": 1.2869167160987853,
+   "lr": 0.00024522329276841664,
+   "valid_nll": 2.3461998189938296
+  },
+  {
+   "step": 4600,
+   "train_loss": 1.2823344159126282,
+   "lr": 0.000227447869074197
+  },
+  {
+   "step": 4700,
+   "train_loss": 1.2775433838367463,
+   "lr": 0.00021065202560039675
+  },
+  {
+   "step": 4800,
+   "train_loss": 1.2761288225650786,
+   "lr": 0.00019488677077162295
+  },
+  {
+   "step": 4900,
+   "train_loss": 1.2726379334926605,
+   "lr": 0.00018019998314863973
+  },
+  {
+   "step": 5000,
+   "train_loss": 1.2697979402542114,
+   "lr": 0.00016663626602275288,
+   "valid_nll": 2.376033834469546
+  },
+  {
+   "step": 5100,
+   "train_loss": 1.2678822159767151,
+   "lr": 0.00015423681195707997
+  },
+  {
+   "step": 5200,
+   "train_loss": 1.2648130130767823,
+   "lr": 0.00014303927768609016
+  },
+  {
+   "step": 5300,
+   "train_loss": 1.2645435678958892,
+   "lr": 0.00013307766975333921
+  },
+  {
+   "step": 5400,
+   "train_loss": 1.263193007707596,
+   "lr": 0.00012438224123471442
+  },
+  {
+   "step": 5500,
+   "train_loss": 1.2610106480121612,
+   "lr": 0.00011697939986083732,
+   "valid_nll": 2.408306939191879
+  },
+  {
+   "step": 5600,
+   "train_loss": 1.2604618000984191,
+   "lr": 0.00011089162781765398
+  },
+  {
+   "step": 5700,
+   "train_loss": 1.2588067269325256,
+   "lr": 0.00010613741346877497
+  },
+  {
+   "step": 5800,
+   "train_loss": 1.2573020672798156,
+   "lr": 0.00010273119520692275
+  },
+  {
+   "step": 5900,
+   "train_loss": 1.2578616285324096,
+   "lr": 0.00010068331760500773
+  },
+  {
+   "step": 6000,
+   "train_loss": 1.2567943382263183,
+   "lr": 0.0001,
+   "valid_nll": 2.4312711640376192
+  }
+ ],
+ "samples": [
+  {
+   "de": "Ein Mann mit einem orangefarbenen Hut, der etwas anstarrt.",
+   "ref": "A man in an orange hat starring at something.",
+   "hyp": "A man with an orange hat handing something.",
+   "hyp_best": "A man in an orange hat with an orange hat looking at something."
+  },
+  {
+   "de": "Ein Boston Terrier läuft über saftig-grünes Gras vor einem weißen Zaun.",
+   "ref": "A Boston Terrier is running on lush green grass in front of a white fence.",
+   "hyp": "A body builder walks over limpy grass in front of a white fence.",
+   "hyp_best": "A bullster runs across the lush of a white fence in front of a white fence."
+  },
+  {
+   "de": "Ein Mädchen in einem Karateanzug bricht ein Brett mit einem Tritt.",
+   "ref": "A girl in karate uniform breaking a stick with a front kick.",
+   "hyp": "A girl, in a karate uniform, is flipping a board with a handheld device.",
+   "hyp_best": "A girl in a karate uniform is rehears a board with a board."
+  },
+  {
+   "de": "Fünf Leute in Winterjacken und mit Helmen stehen im Schnee mit Schneemobilen im Hintergrund.",
+   "ref": "Five people wearing winter jackets and helmets stand in the snow, with snowmobiles in the background.",
+   "hyp": "Five people in winter jackets and helmets in the snow covered in snowcappled snowcraft in the background.",
+   "hyp_best": "Five people in winter jackets and helmets with snow boots in the background."
+  },
+  {
+   "de": "Leute Reparieren das Dach eines Hauses.",
+   "ref": "People are fixing the roof of a house.",
+   "hyp": "People are laying on roof of a house.",
+   "hyp_best": "People are fixing the roof of a house."
+  },
+  {
+   "de": "Ein hell gekleideter Mann fotografiert eine Gruppe von Männern in dunklen Anzügen und mit Hüten, die um eine Frau in einem trägerlosen Kleid herum stehen.",
+   "ref": "A man in light colored clothing photographs a group of men wearing dark suits and hats standing around a woman dressed in a strapless gown.",
+   "hyp": "A man in dark clothes and hats stands around a group of men wearing a dark dress while standing around a woman in a beige dress.",
+   "hyp_best": "A man in a dark dress and hats holding a group of people standing around a woman in a beige dress."
+  },
+  {
+   "de": "Eine Gruppe von Menschen steht vor einem Iglu.",
+   "ref": "A group of people standing in front of an igloo.",
+   "hyp": "A group of people standing outside a statue.",
+   "hyp_best": "A group of people standing in front of an 80."
+  },
+  {
+   "de": "Ein Junge in einem roten Trikot versucht, die Home Base zu erreichen, während der Catcher im blauen Trikot versucht, ihn zu fangen.",
+   "ref": "A boy in a red uniform is attempting to avoid getting out at home plate, while the catcher in the blue uniform is attempting to catch him.",
+   "hyp": "A boy in a red jersey trying to catch the base while the baseman in the blue uniform tries to catch him.",
+   "hyp_best": "A boy in a red uniform trying to catch the plate while the baseman in the blue uniform tries to catch him."
+  },
+  {
+   "de": "Ein Typ arbeitet an einem Gebäude.",
+   "ref": "A guy works on a building.",
+   "hyp": "A guy working on a building.",
+   "hyp_best": "A guy working on a building."
+  },
+  {
+   "de": "Ein Mann in einer Weste sitzt auf einem Stuhl und hält Magazine.",
+   "ref": "A man in a vest is sitting in a chair and holding magazines.",
+   "hyp": "A man in a vest sits on a chair holding a magazine.",
+   "hyp_best": "A man in a vest is sitting in a chair holding a mug."
+  }
+ ]
+}
